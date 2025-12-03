@@ -2,13 +2,13 @@ name: action test
 
 on:
   push:
-    branches:[main]
+    branches: [ main ]
 
 jobs:
   demo:
     runs-on: ubuntu-latest
     
     steps:
-      -name:greetings
+      - name:greetings
         run:echo"Hello"
         
